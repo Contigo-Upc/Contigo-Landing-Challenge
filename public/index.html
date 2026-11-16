@@ -16,6 +16,17 @@
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
+  <div class="a11y-bar">
+    <div class="container a11y-inner">
+      <p class="a11y-label" id="a11y-label">¿Ves el texto muy pequeño?</p>
+      <div class="a11y-actions" role="group" aria-labelledby="a11y-label">
+        <button class="a11y-btn" type="button" data-text-size="down" aria-label="Reducir el tamaño del texto">A<span aria-hidden="true">−</span></button>
+        <button class="a11y-btn" type="button" data-text-size="up" aria-label="Aumentar el tamaño del texto">A<span aria-hidden="true">+</span></button>
+        <button class="a11y-btn a11y-btn-wide" type="button" data-contrast="toggle" aria-pressed="false">Alto contraste</button>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#inicio">
