@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1] - 2026-11-15
+
+### Agregado
+- Primera parte de la página de perfil (`profile.html`).
+
+### Corregido
+- `profile.html` se movió de la raíz a `public/`, junto a las demás páginas.
+
 ## [0.2.0] - 2026-11-15
 
 ### Agregado
